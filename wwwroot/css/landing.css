@@ -1,0 +1,99 @@
+﻿.landing-page {
+    top: 0;
+    display: flex;
+    height: 100vh;
+    position:fixed;
+}
+
+    .landing-page .ny-logo {
+        position: absolute;
+        top: 1rem;
+        left: 50%;
+        text-align: center
+    }
+.goTop {
+display:none;
+}
+@media screen and (min-width:768px), print {
+    .landing-page .ny-logo {
+        top: 4rem
+    }
+}
+
+.landing-page .ny-logo svg {
+    position: relative;
+    left: -50%;
+    height: 2.5rem;
+    fill: #e2001a
+}
+
+@media screen and (min-width:768px),print {
+    .landing-page .ny-logo svg {
+        height: 4rem
+    }
+}
+
+.landing-page .cg-select {
+    width: 50vw;
+    position: relative
+}
+
+    .landing-page .cg-select .cg-select-img {
+        height: 100vh;
+        background-size: cover
+    }
+
+@media screen and (min-width:768px),print {
+    .landing-page .cg-select .cg-select-img {
+        display: none
+    }
+}
+
+.landing-page .cg-select .cg-select-img.is-desktop {
+    background-position: 50%;
+    display: none
+}
+
+@media screen and (min-width:768px),print {
+    .landing-page .cg-select .cg-select-img.is-desktop {
+        display: block
+    }
+}
+
+.landing-page .cg-select .label {
+    color: #fff;
+    font-size: 2.25rem;
+    position: absolute;
+    top: 50%;
+    height: 3rem;
+    margin-top: -1.5rem;
+    width: 100%;
+    text-align: center;
+    font-weight: 900;
+    text-transform: uppercase
+}
+
+@media screen and (min-width:768px),print {
+    .landing-page .cg-select .label {
+        font-size: 6.25rem;
+        line-height: 6.5rem;
+        height: 7.5rem;
+        margin-top: -1.75rem
+    }
+}
+
+.landing-page .imprint {
+    position: absolute;
+    bottom: .75rem;
+    right: 1rem
+}
+
+    .landing-page .imprint a {
+        font-size: .625rem;
+        line-height: 1.25rem;
+        font-weight: 300;
+        color: #fff;
+        text-decoration: none;
+        cursor: pointer;
+        margin-left: .5rem
+    }

@@ -1,0 +1,17 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/main.master" AutoEventWireup="true" CodeFile="product.master.cs" Inherits="inside" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="Title" runat="Server">
+    <asp:ContentPlaceHolder ID="Title" runat="server"></asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="Head" runat="Server">
+    <link href="<%=SiteUtility.SiteRoot + "wwwroot/css/inside.css" %>" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="Head" runat="server"></asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="Content" runat="Server">
+    <asp:ContentPlaceHolder ID="Content" runat="server"></asp:ContentPlaceHolder>
+    <div class="clear"></div>
+</asp:Content>
+<asp:Content ID="Content4" ContentPlaceHolderID="Script" runat="Server">
+    <asp:ContentPlaceHolder ID="Script" runat="server"></asp:ContentPlaceHolder>
+</asp:Content>
+

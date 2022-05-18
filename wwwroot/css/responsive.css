@@ -1,0 +1,2457 @@
+@media (hover: none) {
+    html, * {
+        -webkit-tap-highlight-color: rgba(237, 28, 36, 0.50);
+    }
+}
+
+@media only screen and (max-width : 479px) {
+    .main {
+        width: 90%
+    }
+    /*Header*/
+    #header {
+        border-bottom: 1px solid #e4e4e4
+    }
+
+        #header > .main {
+            position: relative;
+            height: auto;
+            padding: 100px 0 10px 0
+        }
+
+    .noName {
+        display: none
+    }
+
+    .topRow3 > a, .profile-signning-toggle {
+        padding: 10px 0;
+        width: 30px;
+        margin: 0 0 0 20px
+    }
+
+    .icSignUp:before, .icSignIn:before {
+        font-size: 30px;
+        top: 6px;
+        right: 0
+    }
+
+    .icSignIn:before {
+        font-size: 36px;
+        top: 9px;
+        right: 0
+    }
+
+    .profileIc:before {
+        font-size: 32px;
+        right: 0
+    }
+
+    #Newyorker {
+        padding: 10px 0;
+        float: none;
+        width: auto;
+        box-shadow: none;
+        position: absolute;
+        margin: auto;
+        width: 100%;
+        top: 10px;
+    }
+
+    .topRow2 {
+        float: none;
+        padding: 0;
+        top: 24PX;
+        position: absolute;
+        left: 0
+    }
+
+    .topRow3 {
+        float: none;
+        padding-top: 5px;
+        text-align: left
+    }
+
+        .topRow3 > a, .profile-signning-toggle {
+            margin-bottom: 10px;
+            margin-left: 0
+        }
+
+    .sTxt {
+        width: 0%;
+        display: none
+    }
+
+    .searchPane {
+        float: left
+    }
+
+    .sBtn {
+        width: 50px;
+        border-radius: 7px 7px 7px 7px
+    }
+
+    .logoutBtn {
+        text-align: center;
+        margin-top: 20px
+    }
+
+        .logoutBtn .btn {
+            margin-top: 10px
+        }
+
+    .searchPane:hover .sTxt {
+        width: 175px;
+        display: block
+    }
+
+    .icBasket {
+        padding: 7px 45px 7px 5px;
+        margin: 0 7px 0 0 !important
+    }
+
+        .icBasket:after {
+            display: none
+        }
+
+    .topRow3 > .icBasket:before {
+        right: 7px
+    }
+
+    .icBasketPane {
+        padding-bottom: 11px
+    }
+
+    .LoginPane:before {
+        right: 5px
+    }
+
+
+    .bsBasket > a:before {
+        left: 200px
+    }
+
+    .LoginPane {
+        z-index: 5
+    }
+
+    .isBsActive {
+        z-index: 1;
+        1width: 100%
+    }
+
+    #slider {
+        max-height: 120px !important;
+    }
+    /*Navigation*/
+    .navPane:before {
+        display: none
+    }
+
+    .navPane {
+        height: auto;
+        margin-top: 0
+    }
+
+    #navigation {
+        display: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        background: rgba(237, 28, 36, 0.90);
+        border-radius: 0 0 5px 5px;
+        z-index: 1010;
+        box-shadow: 0px 2px 5px #111;
+        padding: 15px
+    }
+
+        #navigation li {
+            margin: 0;
+            width: 100%;
+            float: none;
+            position: relative
+        }
+
+            #navigation li > a {
+                color: #fff;
+                display: block;
+                transition: 0.8s;
+                -moz-transition: 0.8s;
+                -webkit-transition: 0.8s;
+                -o-transition: 0.8s;
+                text-align: right;
+            }
+
+                #navigation li > a:after {
+                    display: none
+                }
+
+            #navigation li:before {
+                content: "\f100";
+                position: absolute;
+                right: 0;
+                top: 13px;
+                font: 18px/1 FontAwesome;
+                color: #f1f1f1
+            }
+
+            #navigation li:after {
+                content: '';
+                position: absolute;
+                top: -2px;
+                right: 15px;
+                left: 5px;
+                height: 1px;
+                background: #e4e4e4
+            }
+
+            #navigation li:hover > a {
+                color: #fff;
+                box-shadow: none;
+                text-shadow: none;
+                font-weight: bold;
+                font-size: 14px;
+                text-align: center;
+            }
+
+            #navigation li:last-child > a {
+                position: static;
+                text-align: center;
+            }
+
+            #navigation li:nth-child(1):after {
+                display: none;
+            }
+
+            #navigation li:last-child:before {
+                content: ''
+            }
+
+    .menuBtn {
+        display: block;
+        top: 24px;
+        right: 0;
+        left: auto
+    }
+
+    .submenu {
+        display: none !important
+    }
+
+    .NaviOverlay {
+        display: none
+    }
+    /*Home*/
+    .hTitPane *, .newsH {
+        font-size: 1em
+    }
+
+    .h1Title {
+        font-size: 1.3em
+    }
+
+    .hTitle, .h1Title {
+        padding: 3px;
+        text-align: right
+    }
+
+    .prPrice, .newsD, .ShowN {
+        font-size: 0.9em
+    }
+
+    .goTop {
+        margin-top: 25px;
+        text-align: center;
+        font-size: 20px;
+        position: fixed;
+        bottom: 20px;
+        padding: 10px;
+        border-radius: 2px;
+        z-index: 1000;
+        background: none;
+        border: none;
+        right: 7%
+    }
+
+        .goTop > span > em {
+            display: none
+        }
+
+
+        .goTop > span:before {
+            font: 50px/43px FontAwesome;
+            margin-left: 10px;
+            color: #fff;
+            content: "\f106";
+            width: 50px;
+            height: 50px;
+            border-radius: 50px;
+            display: inline-block;
+            background: -webkit-linear-gradient(90deg, rgba(237, 28, 36, 0.70) 31%, rgba(0, 122, 173, 0.70) 69%);
+            background: -webkit-gradient(linear, left top, right top, color-stop(31%, rgba(237, 28, 36, 0.70)), color-stop(69%, rgba(0, 122, 173, 0.70)));
+            background: -webkit-linear-gradient(left, rgba(237, 28, 36, 0.70) 31%, rgba(0, 122, 173, 0.70) 69%);
+            background: -o-linear-gradient(left, rgba(237, 28, 36, 0.70) 31%, rgba(0, 122, 173, 0.70) 69%);
+            background: linear-gradient(90deg, rgba(237, 28, 36, 0.70) 31%, rgba(0, 122, 173, 0.70) 69%);
+            box-shadow: 0px 5px 10px #111;
+            -webkit-box-shadow: 0px 5px 10px #111;
+            z-index: 100;
+        }
+
+        .goTop > span:hover:before {
+            background: -webkit-linear-gradient(90deg, rgba(237, 28, 36, 1) 31%, rgba(0, 122, 173, 1) 69%);
+            background: -webkit-gradient(linear, left top, right top, color-stop(31%, rgba(237, 28, 36, 1)), color-stop(69%, rgba(0, 122, 173, 1)));
+            background: -webkit-linear-gradient(left, rgba(237, 28, 36, 1) 31%, rgba(0, 122, 173, 1) 69%);
+            background: -o-linear-gradient(left, rgba(237, 28, 36, 1) 31%, rgba(0, 122, 173, 1) 69%);
+            background: linear-gradient(90deg, rgba(237, 28, 36, 1) 31%, rgba(0, 122, 173, 1) 69%);
+        }
+
+    #footer * {
+        text-align: center
+    }
+
+    .emailInp {
+        width: 75%
+    }
+
+    .emailBtn {
+        width: 17%
+    }
+
+    #pnlProfileLink {
+        float: right;
+        1width: 100%
+    }
+
+    .LoginPane {
+        border-radius: 5px;
+        width: 288px;
+        text-align: right
+    }
+
+    .basketSmall {
+        width: 286px
+    }
+
+    .hCol1, .hCol4 {
+        width: 100%;
+        float: none
+    }
+
+    .hCol2, .hCol3 {
+        width: 100%;
+        float: none;
+        margin-bottom: 15px
+    }
+
+    .banner > li {
+        float: none;
+        width: 100%
+    }
+
+        .banner > li a {
+            width: 100%
+        }
+
+    .Item4Banner, .Item2Banner {
+        margin: 15px 0 0
+    }
+
+        .Item4Banner > li, .Item2Banner > li {
+            float: none;
+            width: 100%
+        }
+
+            .Item4Banner > li > a, .Item2Banner > li > a {
+                margin: 0
+            }
+
+    .newsArticle.article > li, .newsArticle.news > li {
+        width: 100%
+    }
+
+    .Gallerys > li {
+        float: none;
+        width: 100%
+    }
+
+        .Gallerys > li > a {
+            margin: 10px 0
+        }
+
+            .Gallerys > li > a > figure:after {
+                top: 70%;
+                font: 30px/50px FontAwesome;
+                height: 40%;
+            }
+
+            .Gallerys > li > a:hover > figure:after {
+                font: 1.7rem/185% FontAwesome;
+                top: 85%;
+                color: #fff;
+            }
+
+            .Gallerys > li > a > figure:before {
+                width: 85%;
+                right: 7%;
+            }
+
+            .Gallerys > li > a > figure > span {
+                top: 50%;
+                width: 55%;
+                font-weight: bold;
+                font-size: 16px;
+            }
+
+            .Gallerys > li > a:hover > figure > span {
+                padding: 2px;
+                font-size: 18px;
+            }
+
+    /*Footer*/
+    #NavFooter > a {
+        width: 45%
+    }
+
+    .margBox {
+        margin: 0
+    }
+
+    .fRight, .fLeft {
+        float: none;
+        width: 100%;
+        margin-bottom: 20px
+    }
+
+    .fBox {
+        text-align: right;
+        width: 100%;
+        margin-bottom: 25px
+    }
+
+    .c-footerContact, .c-footerAddress {
+        width: 100%
+    }
+
+    .c-footerSeo {
+        width: 100%
+    }
+
+    .c-footerLogo {
+        float: none;
+        width: auto;
+        margin: 15px 0
+    }
+
+        .c-footerLogo:after {
+            display: block;
+            content: '';
+            clear: both
+        }
+
+        .c-footerLogo li {
+            width: 130px
+        }
+
+    .c-footerContact > li {
+        display: block;
+        margin: 5px 0;
+        padding: 0;
+        border: 0
+    }
+
+    .c-footerPartner > li {
+        width: 100%;
+        margin: 20px 0
+    }
+    /*Products*/
+    .TMSortConditionFilter {
+        float: none
+    }
+
+    .AdvSearch {
+        display: block;
+        width: auto
+    }
+
+    .pCol1 {
+        display: none;
+        width: 100%;
+        float: none
+    }
+
+    .pCol2 {
+        width: 100%;
+        float: none
+    }
+
+    .productlist > li {
+        width: 100%
+    }
+
+        .productlist > li:nth-child(n) .proItem {
+            border-left: 0
+        }
+
+    .pDdl {
+        padding-top: 10px;
+        text-align: right;
+        width: 55%
+    }
+
+    /*P Detail*/
+    #bookMarkLst {
+        height: auto
+    }
+
+        #bookMarkLst > li {
+            display: none
+        }
+
+            #bookMarkLst > li > a {
+                padding: 6px 10px
+            }
+
+    #bookMark > section {
+        display: block !important;
+        margin-bottom: 20px;
+        border: 1px solid #e4e4e4;
+        -webkit-box-shadow: 0 12px 12px 0 hsla(0,0%,71%,.11);
+        box-shadow: 0 12px 12px 0 hsla(0,0%,71%,.11);
+    }
+
+    .proCol1, .proCol2, .proCol3, .proCol4 {
+        width: auto;
+        float: none
+    }
+
+    .proCol2 {
+        padding: 10px 20px 20px
+    }
+
+        .proCol2 .rateLbl {
+            float: none
+        }
+
+    .ulItem {
+    }
+
+        .ulItem > a {
+            display: inline-block;
+            width: 18%;
+            margin-bottom: 15px
+        }
+
+    .spSell {
+        min-height: 50px
+    }
+
+    .botItem > li.showBox {
+        width: 100%
+    }
+
+    .botItem > li.wayBox {
+        width: 100%;
+        margin-top: -1px
+    }
+
+    .icSendF, .icAddF {
+        display: block;
+        float: none;
+        margin: 5px 0
+    }
+
+    .form_tbl {
+        width: 100%
+    }
+
+        .form_tbl td {
+            display: block;
+            text-align: right
+        }
+
+    .icAddBasket {
+        width: auto;
+        padding-right: 65px;
+        font-size: 18px
+    }
+    /*Basket*/
+    .basketNav > li {
+        margin: 0;
+        width: 100%
+    }
+
+        .basketNav > li > a {
+            display: block
+        }
+
+    .blBox {
+        width: 86%;
+        margin: 0 0 15px;
+        text-align: right
+    }
+
+    .LoginForm .txt {
+        width: 100%
+    }
+    /*L2*/
+    .basketTbl th {
+        display: none
+    }
+
+    .basketTbl td {
+        display: block;
+        height: auto
+    }
+
+    .basketTbl tr:nth-child(2n+1) {
+        background: hsla(0,0%,71%,.11)
+    }
+
+    .basketTbl .bsPic, .basketTbl .prPic, .basketTbl .bsLink {
+        float: none
+    }
+
+    .basketCol1, .basketCol2 {
+        float: none;
+        width: 100%;
+        margin: 10px 0
+    }
+
+    .postTbl td {
+        padding: 5px
+    }
+
+    .bsNum {
+        top: 0;
+        height: 60px
+    }
+
+    .lBtn {
+        padding: 7px 30px 9px
+    }
+
+    .addrsItem {
+        float: none;
+        width: auto
+    }
+
+    .addressBox .btn {
+        margin-bottom: 10px
+    }
+    /*L3*/
+    .gBox {
+        width: 100%
+    }
+
+    .gredBox .txt {
+        width: 100%
+    }
+    /*L4*/
+    .basketCol3, .basketCol4 {
+        width: 100%;
+        float: none
+    }
+
+    .finalTbl th {
+        display: none
+    }
+
+    .finalTbl td {
+        display: block
+    }
+
+    .finalTbl tr:nth-child(2n) {
+        background: #f1f1f1
+    }
+
+    .finalTbl tr:last-child {
+        background: #e1d6d6
+    }
+
+    .finalScore td {
+        display: block;
+        width: 99%
+    }
+    /*L5*/
+    .prBox {
+        background: 0
+    }
+    /*Profile*/
+    .prfRight, .prfLeft, .prfLRight, .prfLLeft {
+        float: none;
+        width: auto;
+    }
+
+        .prfLeft .leftWihte {
+            padding: 0
+        }
+
+    .editInfoPage .prfLRight {
+        border: 0
+    }
+
+    .pInfoTbl td {
+        display: block
+    }
+
+    .prfTbl {
+        text-align: right
+    }
+
+        .prfTbl td > div {
+            word-wrap: break-word;
+        }
+
+    .orderTbl th {
+        display: none
+    }
+
+    .orderTbl td {
+        display: block;
+        width: auto
+    }
+
+    .orderTbl tr:nth-child(2n+1) {
+        background: #e4e4e4
+    }
+
+    .itemProfile {
+        margin-top: 15px
+    }
+
+        .itemProfile > li, .itemProfile > li:last-child {
+            margin: 0;
+            float: none;
+            width: auto
+        }
+
+            .itemProfile > li > div {
+                margin: 0 0 15px
+            }
+
+    .prfTbl td {
+        display: block;
+        width: auto
+    }
+
+    .leftWihte1 {
+        max-height: 700px
+    }
+
+    .favList > li, .favList > li:nth-child(2n) {
+        float: none;
+        width: auto
+    }
+
+    .favBox .prPic {
+        width: 70px
+    }
+
+    .ordTxt, .orderPic .prPic {
+        float: none
+    }
+
+    .giftCard {
+        text-align: right
+    }
+
+        .giftCard > li {
+            width: 100%
+        }
+
+    .AddrsLst > li, .AddrsLst > li:nth-child(2n) {
+        float: none;
+        width: auto
+    }
+
+    .fbLeft .StarBox {
+        float: none;
+        width: auto
+    }
+
+    .comtRight {
+        width: 33%
+    }
+
+    .comtLeft {
+        width: 64%;
+        padding-top: 25px
+    }
+    /*Contact*/
+    .mapDiv {
+        width: 95%;
+        float: none
+    }
+
+    .contactRight {
+        padding: 10px 0 0
+    }
+    /*Inside*/
+    .inPic {
+        float: none;
+        margin: 0 0 10px
+    }
+
+        .inPic > img {
+            width: 100%
+        }
+    /*Brands*/
+    .brands > li {
+        width: 100%
+    }
+    /*News*/
+    .newsPicIn {
+        width: 100%;
+        margin: 0 0 10px;
+        float: none;
+        min-width: 100%
+    }
+
+        .newsPicIn > img {
+            width: 100%
+        }
+    /*Article*/
+    .mosaicflowUL .newsPic {
+        float: none;
+        width: auto
+    }
+
+    .mosaicflowUL .newsTxt {
+        float: none;
+        width: auto
+    }
+
+    .articlePic img {
+        width: 100%;
+        min-width: 100%
+    }
+
+    .RadComboBox {
+        width: 225px !important
+    }
+
+    figure.effect-chico h2 {
+        padding: 16% 0 0 0
+    }
+    /*Gallery*/
+    .gAlbum > li {
+        width: 100%
+    }
+    /*Links*/
+    .links > li {
+        width: 100%
+    }
+
+
+    #slider .owl-pagination {
+        bottom: 111px
+    }
+
+    #slider .item h3.summary {
+        font-size: 0.7em;
+        padding: 3px
+    }
+
+    .description.show {
+        height: 35px
+    }
+    /*Gallery*/
+    .gAlbum figure {
+        margin: 20px auto;
+        width: 100%;
+        float: none
+    }
+
+    .videoGallery > li {
+        display: block;
+        width: 100%;
+        margin: 15px 0
+    }
+    /*Date Picker*/
+    #ui-datepicker-div {
+        width: 85% !important;
+    }
+}
+
+@media only screen and (min-width : 480px) and (max-width : 719px) {
+    .main {
+        width: 90%
+    }
+    /*Header*/
+    #header {
+        border-bottom: 1px solid #e4e4e4
+    }
+
+        #header > .main {
+            position: relative;
+            height: 138px
+        }
+
+    #Newyorker {
+        padding-top: 14px;
+        width: 22%;
+        box-shadow: none;
+        right: 0;
+        float: right
+    }
+
+    .topRow2 {
+        position: absolute;
+        left: 0;
+        width: 80%;
+        bottom: 10px;
+        padding: 0;
+        z-index: 2
+    }
+
+    .LoginPane {
+        z-index: 3
+    }
+
+    .noName {
+        display: none
+    }
+
+    .topRow3 > a, .profile-signning-toggle {
+        padding: 15px 0;
+        width: 30px;
+        margin: 0 0 0 20px
+    }
+
+    .icSignUp:before, .icSignIn:before {
+        font-size: 30px;
+        top: 6px;
+        right: 0
+    }
+
+    .icSignIn:before {
+        font-size: 36px;
+        top: 9px;
+        right: 0
+    }
+
+    .profileIc:before {
+        font-size: 32px;
+        top: 1px
+    }
+
+    .topRow3 {
+        position: absolute;
+        left: 0;
+        text-align: left;
+        top: -10px
+    }
+
+        .topRow3 > a {
+            margin-right: 7px;
+            margin-left: 7px
+        }
+
+    .icBasket {
+        padding: 7px 34px 7px 5px;
+        margin: 0 7px 0 0 !important
+    }
+
+        .icBasket:after {
+            display: none
+        }
+
+    .basketSmall {
+        /*width: 150%;
+        position: relative;
+        left: 50%;
+        top: 0px;*/
+        z-index: 10000;
+    }
+
+    .topRow3 > .icBasket:before {
+        right: 7px
+    }
+
+    .topRow3 > a, .profile-signning-toggle {
+        margin: 8px 15px 0
+    }
+
+    .sTxt {
+        width: 85%
+    }
+
+    #slider {
+        max-height: 160px !important;
+    }
+    /*Navigation*/
+    .navPane:before {
+        display: none
+    }
+
+    .navPane {
+        height: auto;
+        margin-top: 0
+    }
+
+    #navigation {
+        display: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        background: rgba(237, 28, 36, 0.90);
+        border-radius: 0 0 5px 5px;
+        z-index: 1010;
+        box-shadow: 0px 2px 5px #111;
+        padding: 15px
+    }
+
+        #navigation li {
+            margin: 0;
+            width: 100%;
+            position: relative;
+            float: none
+        }
+
+            #navigation li > a {
+                color: #fff;
+                display: block
+            }
+
+                #navigation li > a:after {
+                    display: none
+                }
+
+
+            #navigation li:before {
+                content: "\f100";
+                position: absolute;
+                right: 0;
+                top: 13px;
+                font: 18px/1 FontAwesome;
+                color: #f1f1f1
+            }
+
+            #navigation li:after {
+                content: '';
+                position: absolute;
+                top: -2px;
+                right: 15px;
+                left: 5px;
+                height: 1px;
+                background: #e4e4e4
+            }
+
+            #navigation li:hover > a {
+                color: #111;
+                box-shadow: 0 0 0 0
+            }
+
+            #navigation li:last-child > a {
+                position: static;
+                text-align: right;
+                min-width: 100%
+            }
+
+            #navigation li:nth-child(1):after {
+                display: none;
+            }
+
+    .menuBtn {
+        display: block;
+        right: 0;
+    }
+
+    .submenu {
+        display: none !important
+    }
+
+    .NaviOverlay {
+        display: none
+    }
+    /*Home*/
+    .hTitPane *, .newsH {
+        font-size: 1em
+    }
+
+    .hTitle {
+        padding: 3px;
+        text-align: right
+    }
+
+    .prPrice, .newsD, .ShowN {
+        font-size: 0.9em
+    }
+
+    .goTop > span, .goTop > span:before, .c-footerContact {
+        font-size: 0.8em
+    }
+
+    #footer * {
+        text-align: center
+    }
+
+    .emailInp {
+        width: 80%
+    }
+
+    .emailBtn {
+        width: 17%
+    }
+
+    #pnlProfileLink {
+        right: 10px;
+        1width: 100%
+    }
+
+    .LoginPane {
+        border-radius: 5px;
+        width: 205px;
+        left: 0;
+        right: auto;
+        text-align: right;
+    }
+
+        .LoginPane:before {
+            right: 148px
+        }
+
+    .hCol1, .hCol4 {
+        width: 100%;
+        float: none
+    }
+
+    .hCol2, .hCol3 {
+        width: 100%;
+        float: none;
+        margin-bottom: 15px
+    }
+
+    .clockPane {
+        right: 0;
+        bottom: 0;
+        padding: 0
+    }
+
+    .clock li:nth-child(2n+1) {
+        width: 40px
+    }
+
+    .clocks {
+        font-size: 20px
+    }
+
+    .banner {
+        margin-right: -15px
+    }
+
+        .banner:after {
+            display: block;
+            content: '';
+            clear: both
+        }
+
+        .banner > li {
+            float: right;
+            width: 50%;
+        }
+
+            .banner > li > a {
+                margin-right: 15px
+            }
+
+    .Item4Banner, .Item2Banner {
+        margin-right: -15px
+    }
+
+        .Item4Banner > li > a, .Item2Banner > li a {
+            margin-right: 15px
+        }
+
+        .Item4Banner > li {
+            width: 50%
+        }
+
+        .Item2Banner > li {
+            width: 100%
+        }
+
+    .newsArticle.article > li, .newsArticle.news > li {
+        width: 100%
+    }
+
+    .Gallerys > li {
+        float: none;
+        width: 100%
+    }
+
+        .Gallerys > li > a {
+            margin: 15px 0
+        }
+    /*Footer*/
+    #NavFooter > a {
+        width: 28%
+    }
+
+    .margBox {
+        margin: 0
+    }
+
+    .fRight, .fLeft {
+        float: none;
+        width: 100%;
+        margin-bottom: 20px
+    }
+
+    .fBox {
+        text-align: right
+    }
+
+    .c-footerContact, .c-footerAddress {
+        width: 100%
+    }
+
+    .c-footerSeo {
+        width: 100%
+    }
+
+    .c-footerLogo {
+        float: none;
+        width: auto;
+        margin: 15px 0;
+    }
+
+        .c-footerLogo:after {
+            display: block;
+            content: '';
+            clear: both
+        }
+
+        .c-footerLogo li {
+            width: 130px
+        }
+
+    .c-footerContact > li {
+        display: block;
+        margin: 5px 0;
+        padding: 0;
+        border: 0
+    }
+
+    .c-footerPartner > li {
+        width: 49%;
+        margin: 20px 0
+    }
+    /*Products*/
+    .TMSortConditionFilter {
+        float: none
+    }
+
+    .AdvSearch {
+        display: block;
+    }
+
+    .pCol1 {
+        display: none;
+        width: 100%;
+        float: none
+    }
+
+    .pCol2 {
+        width: 100%;
+        float: none
+    }
+
+    .productlist > li {
+        width: 50%
+    }
+
+        .productlist > li:nth-child(4n) .proItem {
+            border: 1px solid #ebebeb;
+        }
+
+        .productlist > li:nth-child(2n) .proItem {
+            border-left: 0
+        }
+
+    .pDdl {
+        padding-top: 10px
+    }
+    /*P Detail*/
+    .proCol1, .proCol2, .proCol3, .proCol4 {
+        width: auto;
+        float: none
+    }
+
+    .proCol2 {
+        padding: 20px
+    }
+
+    .ulItem {
+    }
+
+        .ulItem > a {
+            display: inline-block;
+            width: 18%;
+            margin-bottom: 15px
+        }
+
+    #bookMarkLst {
+        font-size: 13px
+    }
+
+        #bookMarkLst > li > a {
+            padding: 15px 6px 14px 10px
+        }
+
+    .botItem > li.showBox {
+        width: 100%
+    }
+
+    .botItem > li.wayBox {
+        width: 45%;
+        margin-top: -1px
+    }
+
+    .form_tbl {
+        width: 100%
+    }
+
+        .form_tbl td {
+            display: block
+        }
+    /*Basket*/
+    .basketNav > li {
+        margin: 0
+    }
+
+        .basketNav > li > a {
+            padding: 7px 15px 9px
+        }
+
+    .blBox {
+        width: 90%;
+        margin: 0 0 15px
+    }
+    /*L2*/
+    .basketTbl td {
+        padding: 0
+    }
+
+    .basketCol1, .basketCol2 {
+        float: none;
+        width: 100%;
+        margin: 10px 0
+    }
+    /*L3*/
+    .gBox {
+        width: 100%
+    }
+
+    .gredBox .txt {
+        width: 100%
+    }
+    /*L4*/
+    .basketCol3, .basketCol4 {
+        width: 100%;
+        float: none
+    }
+    /*L5*/
+    .prBox {
+        background: 0
+    }
+    /*Profile*/
+    .prfRight, .prfLeft, .prfLRight, .prfLLeft {
+        float: none;
+        width: auto
+    }
+
+    .prfTbl {
+        text-align: right
+    }
+
+    .itemProfile > li {
+        margin: 0
+    }
+
+        .itemProfile > li > div {
+            margin: 10px 0 5px
+        }
+
+    .favList > li, .favList > li:nth-child(2n) {
+        float: none;
+        width: auto
+    }
+
+    .orderTbl th {
+        display: none
+    }
+
+    .orderTbl td {
+        display: block;
+        width: auto
+    }
+
+    .orderTbl tr:nth-child(2n+1) {
+        background: #e4e4e4
+    }
+
+    .ordTxt, .orderPic .prPic {
+        float: none
+    }
+
+    .giftCard {
+        text-align: right
+    }
+
+        .giftCard > li {
+            width: 49.5%
+        }
+
+    .AddrsLst > li, .AddrsLst > li:nth-child(2n) {
+        float: none;
+        width: auto
+    }
+
+    .fbLeft .StarBox {
+        float: none;
+        width: auto
+    }
+    /*Contact*/
+    .mapDiv {
+        width: 95%;
+        float: none
+    }
+
+    .contactRight {
+        padding: 10px 0 0
+    }
+    /*Inside*/
+    .inPic {
+        float: none;
+        margin: 0 0 10px
+    }
+
+        .inPic > img {
+            width: 100%
+        }
+    /*News*/
+    .newsPicIn {
+        width: 100%;
+        min-width: 100%;
+        margin: 0 0 10px;
+        float: none
+    }
+
+        .newsPicIn > img {
+            width: 100%
+        }
+    /*Article*/
+    .mosaicflowUL .newsPic {
+        width: 45%
+    }
+
+    .mosaicflowUL .newsTxt {
+        width: 50%
+    }
+
+    .articlePic img {
+        width: 100%;
+        min-width: 100%
+    }
+
+    #slider .owl-pagination {
+        bottom: 155px
+    }
+
+    #slider .item h3.summary {
+        font-size: 0.8em;
+        padding: 3px
+    }
+
+    .description.show {
+        height: 35px
+    }
+    /*Gallery*/
+    .gAlbum figure {
+        margin: 20px auto;
+        width: 80%;
+        float: none
+    }
+
+    figure.effect-chico h2 {
+        padding: 17% 0 10px 0
+    }
+
+    .videoGallery > li {
+        display: block;
+        width: 100%;
+        margin: 15px 0
+    }
+}
+
+@media only screen and (min-width : 720px) and (max-width : 1000px) {
+    .main {
+        width: 95%
+    }
+    /*Header*/
+    #header {
+        border-bottom: 1px solid #e4e4e4
+    }
+
+        #header > .main {
+            position: relative;
+            height: 138px
+        }
+
+    #Newyorker {
+        padding-top: 7px;
+        width: 19%;
+        box-shadow: none;
+        right: 0;
+        float: right
+    }
+
+    .topRow2 {
+        position: absolute;
+        left: 0;
+        width: 70%;
+        bottom: 9px;
+        padding: 0;
+        z-index: 2
+    }
+
+    .menuBtn {
+        right: 7%;
+    }
+
+    .LoginPane {
+        z-index: 3
+    }
+
+    .topRow3 {
+        position: absolute;
+        left: 0
+    }
+
+    .sTxt {
+        width: 85%
+    }
+
+    .basketSmall {
+        z-index: 10
+    }
+
+    #slider {
+        max-height: 255px !important;
+    }
+    /*Navigation*/
+    .navPane:before {
+        display: none
+    }
+
+    .navPane {
+        height: auto;
+        margin-top: 0
+    }
+
+    #navigation {
+        display: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        background: rgba(237, 28, 36, 0.90);
+        1border: 2px outset #f1f1f1;
+        border-radius: 0 0 5px 5px;
+        z-index: 1010;
+        box-shadow: 0px 2px 5px #111;
+        padding: 15px
+    }
+
+        #navigation li {
+            margin: 0;
+            width: 45%;
+            margin: 0 2%;
+            box-shadow: none;
+            position: relative
+        }
+
+            #navigation li > a {
+                color: #fff;
+                display: block;
+                position: relative
+            }
+
+            #navigation li:before {
+                content: "\f100";
+                position: absolute;
+                right: 0;
+                top: 13px;
+                font: 18px/1 FontAwesome;
+                color: #f1f1f1
+            }
+
+            #navigation li:after {
+                content: '';
+                position: absolute;
+                top: -2px;
+                right: 15px;
+                left: 5px;
+                height: 1px;
+                background: #e4e4e4
+            }
+
+            #navigation li:nth-child(1):after, #navigation li:nth-child(2):after {
+                display: none;
+            }
+
+            #navigation li > a:after {
+                display: none
+            }
+
+            #navigation li:hover > a {
+                padding-right: 25px;
+                color: #111;
+                box-shadow: none;
+            }
+
+            #navigation li:last-child > a {
+                min-width: auto;
+                position: static;
+                text-align: right
+            }
+
+            #navigation li:hover > a:last-child {
+                background: #e4172e
+            }
+
+    .menuBtn {
+        display: block;
+        right: 6.5%;
+    }
+
+    .submenu {
+        display: none !important
+    }
+
+    .NaviOverlay {
+        display: none
+    }
+    /*Home*/
+    .clockPane {
+        right: 0;
+        bottom: 0
+    }
+
+    .clock li:nth-child(2n+1) {
+        width: 40px
+    }
+
+    .clocks {
+        font-size: 20px
+    }
+
+    .Item4Banner, .Item2Banner {
+        margin-right: -15px
+    }
+
+        .Item4Banner > li > a, .Item2Banner > li a {
+            margin-right: 15px
+        }
+
+    .newsArticle.article > li, .newsArticle.news > li {
+        width: 48.6%
+    }
+
+    figure.effect-chico h2 {
+        padding: 16% 0 7px 0;
+    }
+
+    .Gallerys > li > a > figure:before {
+        width: 68%;
+        right: 16%
+    }
+
+    .Gallerys > li > a > figure > span {
+        width: 58%;
+        top: 49%
+    }
+
+    .Gallerys > li > a > figure:after {
+        font-size: 39px;
+        top: 48%
+    }
+    /*Footer*/
+    .margBox {
+        margin: 0
+    }
+
+    .fRight, .fLeft {
+        float: none;
+        width: 100%;
+        margin-bottom: 20px
+    }
+
+    .c-footerLogo li {
+        width: 120px;
+        margin-right: 10px
+    }
+
+    .c-footerContact > li {
+        display: block;
+        margin: 5px 0;
+        padding: 0;
+        border: 0
+    }
+    /*Products*/
+    .TMSortConditionFilter {
+        float: none
+    }
+
+    .pCol1 {
+        width: 30%;
+        display: block !important
+    }
+
+    .pCol2 {
+        width: 69%
+    }
+
+    .productlist > li {
+        width: 50%
+    }
+
+        .productlist > li:nth-child(4n) .proItem {
+            border: 1px solid #ebebeb;
+        }
+
+        .productlist > li:nth-child(2n) .proItem {
+            border-left: 0
+        }
+
+    .txtSerach {
+        width: 79%
+    }
+    /*P Detail*/
+    .proCol1, .proCol2 {
+        width: auto;
+        float: none
+    }
+
+    .proCol2 {
+        padding: 20px
+    }
+
+    .icSendF, .icAddF {
+        display: block;
+        float: none;
+        margin: 5px 0
+    }
+    /*Basket*/
+    .basketNav > li {
+        margin: 0 1%
+    }
+
+    .blBox {
+        width: 80%;
+        margin-bottom: 15px
+    }
+    /*L2*/
+    .basketTbl .prPic {
+        float: none
+    }
+
+    .bItemInfo {
+        padding: 10px 0 0
+    }
+
+    .basketCol1, .basketCol2 {
+        float: none;
+        width: 100%;
+        margin: 10px 0
+    }
+    /*L3*/
+    .gredBox .txt {
+        width: 190px
+    }
+    /*L4*/
+    .basketCol3, .basketCol4 {
+        width: 100%;
+        float: none
+    }
+    /*Profile*/
+    .prfRight {
+        width: 30%
+    }
+
+    .prfLeft {
+        width: 69%
+    }
+
+    .prfLRight, .prfLLeft {
+        float: none;
+        width: auto
+    }
+
+    .prfTbl {
+        text-align: right
+    }
+
+    .itemProfile > li {
+        margin: 0
+    }
+
+        .itemProfile > li > div {
+            margin: 0 0 15px
+        }
+
+    .favList > li, .favList > li:nth-child(2n) {
+        float: none;
+        width: auto
+    }
+
+    .orderTbl th {
+        display: none
+    }
+
+    .orderTbl td {
+        display: block;
+        width: auto
+    }
+
+    .orderTbl tr:nth-child(2n+1) {
+        background: #e4e4e4
+    }
+
+    .ordTxt, .orderPic .prPic {
+        float: none
+    }
+
+    .giftCard {
+        text-align: right
+    }
+
+        .giftCard > li {
+            width: 49%
+        }
+
+    .AddrsLst > li, .AddrsLst > li:nth-child(2n) {
+        float: none;
+        width: auto
+    }
+    /*Contact*/
+    .mapDiv {
+        width: 95%;
+        float: none
+    }
+
+    .contactRight {
+        padding: 10px 0 0
+    }
+    /*News*/
+    .nSearch .txt, .nSearch .ddl {
+        width: 85px
+    }
+
+    .nSearch .form_tbl td {
+        padding: 5px
+    }
+    /*Article*/
+    .articlePic img {
+        width: 100%
+    }
+
+    .mosaicflowUL .newsPic {
+        width: 33%
+    }
+
+    .mosaicflowUL .newsTxt {
+        width: 63%
+    }
+    /*Gallery*/
+    .gAlbum figure {
+        margin: 20px;
+        width: 44%
+    }
+
+    .videoGallery > li {
+        margin: 12px
+    }
+}
+
+@media only screen and (min-width : 1001px) and (max-width : 1199px) {
+    .main {
+        width: 980px
+    }
+
+    #Newyorker {
+        padding-top: 20px;
+        box-shadow: none
+    }
+    /*Header*/
+    .stickyPane {
+        height: 155px
+    }
+
+    .sticky {
+    }
+
+    .fixed {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 240
+    }
+
+        .fixed #header > .main {
+            height: 50px;
+            background: #eee
+        }
+
+        .fixed .topRow3 {
+            padding-top: 5px
+        }
+
+        .fixed .topRow2 {
+            padding-top: 4px
+        }
+
+        .fixed .menuBtn {
+            top: 8px;
+        }
+
+        .fixed #Newyorker {
+            width: 10%;
+            padding-top: 1px;
+            margin-left: 2%;
+        }
+
+        .fixed .menuBtn {
+            margin-left: 2%;
+        }
+
+    .topRow2 {
+        min-width: 40%
+    }
+
+    #slider {
+        max-height: 333px !important;
+    }
+    /*Navigation*/
+    #navigation li {
+        margin-left: 0
+    }
+
+        #navigation li > a {
+            padding: 11px 10px
+        }
+
+    .sCol {
+        width: 23%
+    }
+
+    #navigation li:last-child > a {
+        top: 45px;
+        border-radius: 0 0 5px 5px;
+        padding: 5px 10px;
+        background: #e4172e
+    }
+    /*Footer*/
+    .scialBox {
+        float: none;
+        clear: both;
+        width: 100%;
+        padding-top: 30px
+    }
+
+    .fBoxTit {
+        text-align: right
+    }
+
+    .c-footerLogo li {
+        width: 120px;
+        margin-right: 10px
+    }
+
+    .c-footerContact > li {
+        display: block;
+        margin: 5px 0;
+        padding: 0;
+        border: 0
+    }
+    /*Home*/
+    .clockPane {
+        bottom: 20px;
+        right: 0
+    }
+
+    .newsArticle.article > li {
+        width: 48.7%
+    }
+
+    .prName {
+        height: 40px
+    }
+    /*Products*/
+    .TMSortConditionFilter {
+        float: none
+    }
+
+    .pCol1 {
+        width: 23%;
+        display: block !important
+    }
+
+    .pCol2 {
+        width: 76%
+    }
+
+    .productlist > li {
+        width: 33.3%
+    }
+
+        .productlist > li:nth-child(4n) .proItem {
+            border: 1px solid #ebebeb;
+        }
+
+        .productlist > li:nth-child(3n) .proItem {
+            border-left: 0
+        }
+    /*Basket*/
+    .basketNav > li {
+        margin: 0 3%
+    }
+
+    .blBox {
+        width: 41%
+    }
+
+    .blBoxRegister {
+        width: 60%
+    }
+    /*L3*/
+    .gredBox .txt {
+        width: 300px
+    }
+    /*Profile*/
+    .prfRight {
+        width: 23%
+    }
+
+    .prfLeft {
+        width: 76%
+    }
+
+    .prfTbl {
+        text-align: right
+    }
+
+    .giftCard {
+        text-align: right
+    }
+
+        .giftCard > li {
+            width: 32.5%
+        }
+    /*News*/
+    .nSearch .txt, .nSearch .ddl {
+        width: 120px
+    }
+    /*Gallery*/
+    .gAlbum figure {
+        margin: 20px 16px;
+        width: 30%
+    }
+
+    figure.effect-chico h2 {
+        padding: 15% 0 1px 0;
+    }
+
+    .videoGallery > li {
+        margin: 17px
+    }
+}
+
+@media only screen and (min-width : 1200px) and (max-width : 1349px) {
+    .main {
+        width: 95%
+    }
+
+    #Newyorker {
+        padding-top: 20px;
+        box-shadow: none
+    }
+
+    #slider {
+        max-height: 400px !important;
+    }
+
+    #navigation li > a {
+        padding: 11px
+    }
+    /**/
+    .stickyPane {
+        height: 155px
+    }
+
+    .sticky {
+    }
+
+    .fixed {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 240
+    }
+
+        .fixed #header > .main {
+            height: 50px;
+            background: #eee
+        }
+
+        .fixed .topRow3 {
+            padding-top: 5px
+        }
+
+        .fixed .topRow2 {
+            padding-top: 4px
+        }
+
+        .fixed .menuBtn {
+            top: 8px;
+        }
+
+        .fixed #Newyorker {
+            width: 7%;
+            padding-top: 1px
+        }
+    /*Product*/
+    .pCol1 {
+        display: block !important
+    }
+
+    .TMSortConditionFilter {
+        float: none
+    }
+}
+
+@media only screen and (min-width : 1350px) and (max-width : 1449px) {
+    .main {
+        width: 100%
+    }
+
+    #Newyorker {
+        padding-top: 0px;
+        box-shadow: none
+    }
+
+    #slider {
+        max-height: 414px !important;
+    }
+
+
+    .sticky {
+    }
+
+    .fixed {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 240
+    }
+
+        .fixed #header > .main {
+            height: 50px;
+            background:#eee
+        }
+
+        .fixed .topRow3 {
+            padding-top: 5px
+        }
+
+        .fixed .topRow2 {
+            padding-top: 4px
+        }
+
+        .fixed .menuBtn {
+            top: 8px;
+        }
+
+        .fixed #Newyorker {
+            width: 7%;
+            padding-top: 1px
+        }
+    /*Product*/
+    .pCol1 {
+        display: block !important
+    }
+
+    .TMSortConditionFilter {
+        float: none
+    }
+}
+
+@media only screen and (min-width : 1450px) and (max-width : 1549px) {
+    .main {
+        width: 95%
+    }
+
+    #Newyorker {
+        padding-top: 20px;
+        box-shadow: none
+    }
+
+    #slider {
+        max-height: 444px !important;
+    }
+    /**/
+    .stickyPane {
+        height: 155px
+    }
+
+    .sticky {
+    }
+
+    .fixed {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 240
+    }
+
+        .fixed #header > .main {
+            height: 50px
+        }
+
+        .fixed .topRow3 {
+            padding-top: 5px
+        }
+
+        .fixed .topRow2 {
+            padding-top: 4px
+        }
+
+        .fixed .menuBtn {
+            top: 8px;
+        }
+
+        .fixed #Newyorker {
+            width: 7%;
+            padding-top: 1px
+        }
+    /*Product*/
+    .pCol1 {
+        display: block !important
+    }
+
+    .TMSortConditionFilter {
+        float: none
+    }
+}
+
+@media only screen and (min-width : 1550px) and (max-width : 1649px) {
+    .main {
+        width: 97%
+    }
+    /**/
+    .stickyPane {
+        height: 155px
+    }
+
+    .sticky {
+    }
+
+    #slider {
+        max-height: 485px !important;
+    }
+
+    .fixed {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 240
+    }
+
+        .fixed #header > .main {
+            height: 50px
+        }
+
+        .fixed .topRow3 {
+            padding-top: 5px
+        }
+
+        .fixed .topRow2 {
+            padding-top: 4px
+        }
+
+        .fixed .menuBtn {
+            top: 8px;
+        }
+
+        .fixed #Newyorker {
+            width: 5%;
+            height: 40px;
+            padding: 7px;
+            margin: 0px 0 0 2.2%;
+            box-shadow: 0px -10px 5px #e4172e;
+            border-top-left-radius: 350px;
+            border-bottom-left-radius: 10%;
+            border-top-right-radius: 350px;
+            border-bottom-right-radius: 10%;
+        }
+    /*Product*/
+    .pCol1 {
+        display: block !important
+    }
+}
+
+@media only screen and (min-width : 1650px) and (max-width : 1749px) {
+    .main {
+        width: 97%
+    }
+    /**/
+    .stickyPane {
+        height: 155px
+    }
+
+    .sticky {
+    }
+
+    #slider {
+        max-height: 515px !important;
+    }
+
+    .fixed {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 240
+    }
+
+        .fixed #header > .main {
+            height: 50px
+        }
+
+        .fixed .topRow3 {
+            padding-top: 5px
+        }
+
+        .fixed .topRow2 {
+            padding-top: 4px
+        }
+
+        .fixed .menuBtn {
+            top: 8px;
+        }
+
+        .fixed #Newyorker {
+            width: 5%;
+            height: 40px;
+            padding: 7px;
+            margin: 0px 0 0 2.2%;
+            box-shadow: 0px -10px 5px #e4172e;
+            border-top-left-radius: 350px;
+            border-bottom-left-radius: 10%;
+            border-top-right-radius: 350px;
+            border-bottom-right-radius: 10%;
+        }
+    /*Product*/
+    .pCol1 {
+        display: block !important
+    }
+}
+
+@media only screen and (min-width : 1750px) and (max-width : 1849px) {
+    .main {
+        width: 97%
+    }
+
+    .fixed {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 240
+    }
+
+        .fixed #header > .main {
+            height: 50px
+        }
+
+        .fixed .topRow3 {
+            padding-top: 5px
+        }
+
+        .fixed .topRow2 {
+            padding-top: 4px
+        }
+
+        .fixed .menuBtn {
+            top: 8px;
+        }
+
+        .fixed #Newyorker {
+            width: 5%;
+            height: 40px;
+            padding: 7px;
+            margin: 0px 0 0 2.2%;
+            box-shadow: 0px -10px 5px #e4172e;
+            border-top-left-radius: 350px;
+            border-bottom-left-radius: 10%;
+            border-top-right-radius: 350px;
+            border-bottom-right-radius: 10%;
+        }
+
+    #slider {
+        max-height: 555px !important;
+    }
+}
+
+@media only screen and (min-width : 1850px) {
+    .main {
+        width: 98%
+    }
+
+    .fixed {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 240
+    }
+
+        .fixed #header > .main {
+            height: 50px
+        }
+
+        .fixed .topRow3 {
+            padding-top: 5px
+        }
+
+        .fixed .topRow2 {
+            padding-top: 4px
+        }
+
+        .fixed .menuBtn {
+            top: 8px;
+        }
+
+        .fixed #Newyorker {
+            width: 5%;
+            height: 40px;
+            padding: 7px;
+            margin: 0px 0 0 2.2%;
+            box-shadow: 0px -10px 5px #e4172e;
+            border-top-left-radius: 350px;
+            border-bottom-left-radius: 10%;
+            border-top-right-radius: 350px;
+            border-bottom-right-radius: 10%;
+        }
+
+    #slider {
+        max-height: 575px !important;
+    }
+}

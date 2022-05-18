@@ -1,0 +1,276 @@
+{
+  "global_item_id": "GIID005695",
+  "id": "03.01.106.0178",
+  "country": "de",
+  "maintenance_group": "T-Shirts, long sleeve Fashion",
+  "web_category_id": "WCA03033",
+  "web_category": "WCA03033",
+  "brand": "Amisu",
+  "sales_unit": 1,
+  "customer_group": "FEMALE",
+  "variants": [
+    {
+      "id": "001",
+      "product_id": "03.01.106.1609",
+      "publish_date": "2022-03-03T16:10:49.334Z",
+      "new_in": false,
+      "coming_soon": false,
+      "sale": false,
+      "color_name": "CID-28388",
+      "pantone_color": "HUAFUH0306",
+      "pantone_color_name": "Quiet Gray Melange",
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "color_group": "Helles Grau",
+      "basic_color": "Grau/Schwarz",
+      "currency": "EUR",
+      "original_price": 14.99,
+      "current_price": 14.99,
+      "red_price_change": false,
+      "sizes": [
+        {
+          "size_value": "50",
+          "size_name": "L",
+          "bar_code": "6560985561905010"
+        },
+        {
+          "size_value": "60",
+          "size_name": "XL",
+          "bar_code": "6560985561906017"
+        },
+        {
+          "size_value": "70",
+          "size_name": "XXL",
+          "bar_code": "6560985561907014"
+        },
+        {
+          "size_value": "20",
+          "size_name": "XS",
+          "bar_code": "6560985561902019"
+        },
+        {
+          "size_value": "30",
+          "size_name": "S",
+          "bar_code": "6560985561903016"
+        },
+        {
+          "size_value": "40",
+          "size_name": "M",
+          "bar_code": "6560985561904013"
+        }
+      ],
+      "images": [
+        {
+          "key": "43c9fe5f775db38ee1161ae8337a6cbc.png",
+          "type": "CUTOUT",
+          "angle": "FRONT",
+          "has_thumbnail": true,
+          "position": 0
+        }
+      ]
+    },
+    {
+      "id": "001",
+      "product_id": "03.01.106.0179",
+      "publish_date": "2021-07-25T04:43:20.65Z",
+      "new_in": false,
+      "coming_soon": false,
+      "sale": true,
+      "color_name": "CID-32060",
+      "pantone_color": "19-1213 TCX",
+      "pantone_color_name": "Shopping Bag",
+      "red": 89,
+      "green": 71,
+      "blue": 66,
+      "color_group": "Braun",
+      "basic_color": "Braun",
+      "currency": "EUR",
+      "original_price": 14.99,
+      "current_price": 4.99,
+      "red_price_change": true,
+      "sizes": [
+        {
+          "size_value": "50",
+          "size_name": "L",
+          "bar_code": "6517984943005018"
+        },
+        {
+          "size_value": "60",
+          "size_name": "XL",
+          "bar_code": "6517984943006015"
+        },
+        {
+          "size_value": "20",
+          "size_name": "XS",
+          "bar_code": "6517984943002017"
+        },
+        {
+          "size_value": "30",
+          "size_name": "S",
+          "bar_code": "6517984943003014"
+        },
+        {
+          "size_value": "40",
+          "size_name": "M",
+          "bar_code": "6517984943004011"
+        }
+      ],
+      "images": [
+        {
+          "key": "0a908671a1617b5bb26c85c92d525fd4.png",
+          "type": "CUTOUT",
+          "angle": "FRONT",
+          "has_thumbnail": true,
+          "position": 4
+        }
+      ]
+    },
+    {
+      "id": "001",
+      "product_id": "03.01.106.0178",
+      "publish_date": "2021-08-08T04:44:25.46Z",
+      "new_in": false,
+      "coming_soon": false,
+      "sale": false,
+      "color_name": "CID-01016",
+      "pantone_color": "00-0000 TCX",
+      "pantone_color_name": "Black",
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "color_group": "Schwarz",
+      "basic_color": "Grau/Schwarz",
+      "currency": "EUR",
+      "original_price": 14.99,
+      "current_price": 14.99,
+      "red_price_change": false,
+      "sizes": [
+        {
+          "size_value": "30",
+          "size_name": "S",
+          "bar_code": "6517885561603016"
+        },
+        {
+          "size_value": "40",
+          "size_name": "M",
+          "bar_code": "6517885561604013"
+        },
+        {
+          "size_value": "50",
+          "size_name": "L",
+          "bar_code": "6517885561605010"
+        },
+        {
+          "size_value": "60",
+          "size_name": "XL",
+          "bar_code": "6517885561606017"
+        },
+        {
+          "size_value": "70",
+          "size_name": "XXL",
+          "bar_code": "6517885561607014"
+        },
+        {
+          "size_value": "20",
+          "size_name": "XS",
+          "bar_code": "6517885561602019"
+        }
+      ],
+      "images": [
+        {
+          "key": "dc68461368a5bcc64fb7a794e3bf2dfd.png",
+          "type": "CUTOUT",
+          "angle": "FRONT",
+          "has_thumbnail": true,
+          "position": 3
+        }
+      ]
+    },
+    {
+      "id": "001",
+      "product_id": "03.01.106.1602",
+      "publish_date": "2022-02-20T04:22:10.195Z",
+      "new_in": false,
+      "coming_soon": false,
+      "sale": false,
+      "color_name": "CID-32050",
+      "pantone_color": "13-0003 TCX",
+      "pantone_color_name": "Perfectly Pale",
+      "red": 211,
+      "green": 201,
+      "blue": 190,
+      "color_group": "Beige",
+      "basic_color": "Beige",
+      "currency": "EUR",
+      "original_price": 14.99,
+      "current_price": 14.99,
+      "red_price_change": false,
+      "sizes": [
+        {
+          "size_value": "20",
+          "size_name": "XS",
+          "bar_code": "6560285561802013"
+        },
+        {
+          "size_value": "30",
+          "size_name": "S",
+          "bar_code": "6560285561803010"
+        },
+        {
+          "size_value": "40",
+          "size_name": "M",
+          "bar_code": "6560285561804017"
+        },
+        {
+          "size_value": "50",
+          "size_name": "L",
+          "bar_code": "6560285561805014"
+        },
+        {
+          "size_value": "60",
+          "size_name": "XL",
+          "bar_code": "6560285561806011"
+        },
+        {
+          "size_value": "70",
+          "size_name": "XXL",
+          "bar_code": "6560285561807018"
+        }
+      ],
+      "images": [
+        {
+          "key": "ff1ab4ab7322a30d590d87b26f55ea47.png",
+          "type": "CUTOUT",
+          "angle": "FRONT",
+          "has_thumbnail": true,
+          "position": 0
+        },
+        {
+          "key": "d07d80c3c1154192b6276ca7be2f7b0d.jpg",
+          "type": "OUTFIT_IMAGE",
+          "angle": "FRONT",
+          "has_thumbnail": false,
+          "position": 1
+        },
+        {
+          "key": "2b3eab8d5c124f31d0b8e5779e49a061.jpg",
+          "type": "OUTFIT_IMAGE",
+          "angle": "FRONT",
+          "has_thumbnail": false,
+          "position": 0
+        }
+      ]
+    }
+  ],
+  "descriptions": [
+    {
+      "language": "DE",
+      "description": "Langarm Cardigan"
+    },
+    {
+      "language": "EN",
+      "description": "Long sleeve cardigan"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="main.master.cs" Inherits="main" EnableViewState="false" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Content-Language" content="de-DE" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta property="og:site_name" content="NewYorkerInterview" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta property="og:locale" content="de-DE" />
+    <link rel="SHORTCUT ICON" href="<%=SiteUtility.SiteRoot + "/favicon.ico"%>" />
+    <title><asp:ContentPlaceHolder ID="Title" runat="server"></asp:ContentPlaceHolder></title>
+    <meta name="rating" content="Safe For Kids" />
+    <meta name="author" content="Amin Amiri Darban | +98-912-9587177 - http://aminamiridarban.ir - amin.amiri.darban@gmail.com" />
+    <meta name="revisit-after" content="7 Days" />
+
+    <link href="<%=SiteUtility.SiteRoot + "wwwroot/css/style.css" %>" rel="stylesheet" type="text/css" media="screen" />
+    <link href="<%=SiteUtility.SiteRoot + "wwwroot/Alert/css/themes/bootstrap.rtl.min.css" %>" rel="stylesheet" type="text/css" media="screen" />
+    <link href="<%=SiteUtility.SiteRoot + "wwwroot/css/responsive.css?cash=" %>" rel="stylesheet" type="text/css" media="screen" />
+
+    <!-- Imported CSS -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css" />
+
+
+    <!--[if lt IE 9]>
+        <script type="text/javascript" src="/js/html5.js"></script>
+        <link rel="stylesheet" type="text/css" media="screen" href="/css/ie.css" />
+        <script src="/js/css3-mediaqueries.js"></script>
+    <![endif]-->
+    <asp:ContentPlaceHolder ID="Head" runat="server"></asp:ContentPlaceHolder>
+
+</head>
+<body>
+    <form id="frmMAinMaster" runat="server">
+        <div class="stickyPane">
+            <div class="sticky">
+                <header id="header">
+                    <div class="main">
+                        <h3 id="Newyorker">
+                            <a href="<%=SiteUtility.SiteRoot %>" title="NewYorker Interview Case Study Result">
+                                <img src="<%=SiteUtility.SiteRootPictures %>uploads/etc/Logo_300x200.png" alt="NewYorker Interview Case Study Result" />
+                            </a>
+                        </h3>
+                        <div class="menuBtn">
+                            <div class="stripesContainer">
+                                <div class="stripe stripeTop"></div>
+                                <div class="stripe stripeCenter"></div>
+                                <div class="stripe stripeBottom"></div>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+                <div class="clear"></div>
+                <div class="navPane" id="navigation">
+                    <nav class="main">
+                        <ul id="navigationHolder">
+                            <li>
+                                <asp:LinkButton ID="lbtnHerren" runat="server" PostBackUrl="/Produkte/Herren/View" Text="Herren" OnClick="lbtnHerren_Click"></asp:LinkButton>
+                            </li>
+                            <li>
+                                <asp:LinkButton ID="lbtnDamen" runat="server" PostBackUrl="/Produkte/Damen/View" Text="Damen" OnClick="lbtnDamen_Click"></asp:LinkButton>
+                            </li>
+                            <li>
+                                <asp:LinkButton ID="lblAddressAll" runat="server" PostBackUrl="Produkte/View/#!/allgroups">Produkten</asp:LinkButton>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="NaviOverlay"></div>
+        <div class="clear"></div>
+        <div class="main">
+            <asp:ContentPlaceHolder ID="Content" runat="server"></asp:ContentPlaceHolder>
+        </div>
+        <div class="clear"></div>
+        <div class="goTop"><span></span></div>
+        <div class="clear"></div>
+    </form>
+    <script type="text/javascript">
+        var siteRoot = "<%=SiteUtility.SiteRoot%>";
+    </script>
+    <script src='<%=SiteUtility.SiteRoot +  "wwwroot/js/jquery-1.8.3.min.js"%>'></script>
+    <script src='<%=SiteUtility.SiteRoot +  "wwwroot/Alert/alertify.min.js"%>'></script>
+    <script src='<%=SiteUtility.SiteRoot +  "wwwroot/js/public.js?cash="%>'></script>
+
+    <asp:ContentPlaceHolder ID="Script" runat="server"></asp:ContentPlaceHolder>
+</body>
+</html>

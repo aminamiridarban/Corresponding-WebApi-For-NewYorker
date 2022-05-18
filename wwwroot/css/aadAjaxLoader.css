@@ -1,0 +1,382 @@
+.aadAjaxLoaderPaging {
+    clear: both;
+    direction: ltr;
+    padding: 30px 10px;
+    border-bottom: 1px solid #c1c1c1
+}
+
+.aadAjaxLoaderPanel {
+    text-align: center;
+    font-size: 16px;
+    line-height: 35px
+}
+
+.aadAjaxLoaderInfo {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.aadAjaxLoaderPaging > span {
+}
+
+.aadAjaxLoaderPaging a {
+    min-width: 35px;
+    height: 35px;
+    margin: 0 2px;
+    color: #6e6e6e;
+    border: 1px solid transparent;
+    border-radius: 8px
+}
+
+    .aadAjaxLoaderPaging a:hover {
+    }
+
+.aadAjaxLoaderPaging .current {
+    background-color: #e4172e;
+    border: 1px solid #e4172e;
+    color: #fff;
+    position: relative;
+    bottom: 2px;
+    box-shadow: 7px 7px 4px rgba(250,100,100,0.85);
+}
+
+.aadAjaxLoaderPaging .prev, .aadAjaxLoaderPaging .next, .aadAjaxLoaderPaging .first, .aadAjaxLoaderPaging .last {
+    border: 1px solid #fff;
+    font: 20pt/31px arial;
+    color: #6e6e6e;
+    background: #fff;
+    border-radius: 2px
+}
+
+.aadAjaxLoaderPaging .prev {
+    background-position: -28px 0
+}
+
+.aadAjaxLoaderPaging .next {
+    background-position: 0 0
+}
+
+.aadAjaxLoaderPaging .first {
+    background-position: -21px -17px
+}
+
+.aadAjaxLoaderPaging .last {
+    background-position: 0 -17px
+}
+
+.aadAjaxLoaderPane {
+    position: relative;
+    min-height: 300px;
+}
+
+.aadAjaxLoader {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-size: 222px !important;
+    background: url(../images/TMloading.gif) no-repeat center center;
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.86);
+    display: none;
+    z-index: 20;
+}
+
+.aadAjaxLoaderColors {
+    color: #555;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+ul.chosen {
+    display: none
+}
+/*Price Pick*/
+.pricePick {
+    text-align: center;
+    height: 45px;
+    padding-top: 27px
+}
+
+    .pricePick .ui-slider {
+        position: relative;
+        width: 196px;
+        height: 2px;
+        background: url('../images/TMpricePick.png') no-repeat 0 -42px;
+        margin: 0 auto
+    }
+
+        .pricePick .ui-slider .ui-slider-range {
+            height: 2px;
+            background: url('../images/TMpricePick.png') no-repeat 0 -34px;
+            border: 0;
+            display: block;
+            font-size: .7em;
+            position: absolute;
+            z-index: 1
+        }
+
+        .pricePick .ui-slider .ui-slider-handle {
+            position: absolute;
+            top: -9px;
+            margin-left: -.75em;
+            width: 19px;
+            height: 19px;
+            cursor: pointer;
+            z-index: 2;
+            background: #fff url('../images/TMpricePick.png') no-repeat -3px -3px;
+            border-radius: 10px;
+            -webkit-box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+            box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+            -moz-transition: 0s;
+            -webkit-transition: 0s;
+            -o-transition: 0s;
+            transition: 0s;
+        }
+
+        .pricePick .ui-slider .right {
+            background-position: -32px -3px;
+            margin-left: -16px
+        }
+
+        .pricePick .ui-slider .left {
+            background-position: -3px -3px
+        }
+
+        .pricePick .ui-slider #amount {
+            position: absolute;
+            top: 14px;
+            direction: rtl;
+            width: 212px;
+            right: -10px
+        }
+
+            .pricePick .ui-slider #amount .minprice {
+                float: right
+            }
+
+            .pricePick .ui-slider #amount .maxprice {
+                float: left
+            }
+/*Brand Filter*/
+.aadAjaxLoaderFilter {
+    padding: 10px
+}
+
+    .aadAjaxLoaderFilter > li {
+        height: 26px
+    }
+
+        .aadAjaxLoaderFilter > li > a {
+            display: block;
+            color: #555;
+            width: 16px;
+            height: 16px;
+            background: url('../images/TMcheckbox.png') no-repeat 0 0;
+            position: relative;
+            margin-top: 5px;
+            -moz-transition: 0s;
+            -webkit-transition: 0s;
+            -o-transition: 0s;
+            transition: 0s;
+        }
+
+            .aadAjaxLoaderFilter > li > a.checkbox-icon-checked {
+                background-position: 0 -30px
+            }
+
+            .aadAjaxLoaderFilter > li > a > .chkName {
+                position: absolute;
+                top: -4px;
+                right: 24px;
+                width: 180px
+            }
+
+            .aadAjaxLoaderFilter > li > a > .chkColor {
+                width: 14px;
+                height: 14px;
+                border-radius: 30px;
+                box-shadow: 0 0 5px #c1c1c1;
+                position: absolute;
+                top: 2px;
+                right: 22px
+            }
+
+            .aadAjaxLoaderFilter > li > a > input {
+                margin: 0;
+                opacity: 0;
+                width: 16px;
+                height: 16px
+            }
+
+        .aadAjaxLoaderFilter > li:hover {
+            color: #a00;
+            cursor: pointer
+        }
+
+.aadAjaxLoaderColorFilter > li > a > .chkName {
+    right: 46px
+}
+
+.aadAjaxLoader1Filter {
+    padding: 10px;
+    text-align: left;
+}
+
+.aadAjaxLoaderFilter > li > a.swipInp {
+    width: 40px;
+    height: 21px;
+    background: url('../images/swipInp.png') no-repeat 0 0;
+    float: right;
+    cursor: pointer
+}
+
+    .aadAjaxLoaderFilter > li > a.swipInp > input {
+        width: 40px;
+        height: 21px
+    }
+
+.aadAjaxLoader1Filter > li > a > .chkName {
+    right: 49px;
+    top: 0;
+    cursor: none
+}
+
+.aadAjaxLoader1Filter > li > a.checkbox-icon-checked {
+    background-position: 0 -21px
+}
+
+.overflowList {
+    max-height: 330px;
+    overflow-y: auto;
+    overflow-x: hidden
+}
+/*Dynamic Filter*/
+.dynamicFilter {
+    background: #e1e1e1;
+    padding: 5px 10px;
+    margin-bottom: 15px
+}
+
+.prd_crap_list {
+    text-align: right
+}
+
+    .prd_crap_list > li {
+        display: inline-block;
+        min-width: 15%;
+        background: #fafafa;
+        margin: 5px 3px;
+        border: 1px solid #fff;
+        border-radius: 5px;
+        position: relative
+    }
+
+        .prd_crap_list > li > a {
+            padding: 2px 15px 2px 10px;
+            color: #555;
+            position: relative;
+            display: block
+        }
+
+            .prd_crap_list > li > a:after {
+                content: "\f0d9";
+                font: normal normal normal 15px/1 FontAwesome;
+                text-rendering: auto;
+                -webkit-font-smoothing: antialiased;
+                position: absolute;
+                top: 5px;
+                left: 5px
+            }
+
+        .prd_crap_list > li:hover {
+            border: 1px solid #1d1d1d;
+            border-radius: 5px 5px 0 0
+        }
+
+            .prd_crap_list > li:hover > a {
+                color: #e4172e
+            }
+
+                .prd_crap_list > li:hover > a:after {
+                    content: "\f0d7"
+                }
+
+.prd_crap_box {
+    background: #1d1d1d;
+    position: absolute;
+    right: -1px;
+    left: -1px;
+    top: 26px;
+    z-index: 1;
+    border-radius: 0 0 5px 5px;
+    padding: 5px;
+    display: none
+}
+
+.filter-dynamic {
+}
+
+    .filter-dynamic > li {
+        padding: 2px 30px 2px 0;
+        cursor: pointer;
+        background: url('../images/filter_link_bg.png') no-repeat right 7px;
+        color: #fff;
+    }
+
+        .filter-dynamic > li.selected {
+            background-position: right -80px !important;
+        }
+
+        .filter-dynamic > li:hover {
+            background-position: right -37px;
+        }
+
+.viewall {
+    padding: 2px 25px 2px 5px;
+    background: url('../images/filter_link_bg.png') no-repeat right 7px;
+    cursor: pointer;
+    border-bottom: 1px solid #494949
+}
+
+    .viewall.selected {
+        background-position: right -80px !important;
+        color: #e4172e
+    }
+
+.aadAjaxLoaderSelectedFilters {
+    padding: 10px;
+    text-align: right
+}
+
+    .aadAjaxLoaderSelectedFilters > li {
+        display: inline-block;
+        margin: 5px 2px
+    }
+
+        .aadAjaxLoaderSelectedFilters > li > a {
+            border: 1px solid #eee;
+            padding: 4px 5px 4px 22px;
+            border-radius: 5px;
+            font-size: 12px;
+            position: relative;
+            cursor: pointer
+        }
+
+            .aadAjaxLoaderSelectedFilters > li > a:after {
+                content: "\f00d";
+                font: 15px/19px FontAwesome;
+                text-rendering: auto;
+                -webkit-font-smoothing: antialiased;
+                position: absolute;
+                top: 5px;
+                left: 5px
+            }
+
+.delAllFilter {
+    float: left;
+    color: #e4172e;
+    font-size: 12px;
+    cursor: pointer
+}
